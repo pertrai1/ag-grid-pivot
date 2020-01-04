@@ -1,1 +1,33 @@
-/* You can add global styles to this file, and also import other style files */
+@import '@ag-grid-community/all-modules/dist/styles/ag-grid.css';
+@import '@ag-grid-community/all-modules/dist/styles/ag-theme-balham.css';
+
+body,
+.ag-theme-balham {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 14px !important;
+}
+
+.ag-theme-balham .ag-header-row {
+  background: #046b99;
+  color: #fff;
+  font-size: 1.15em;
+  border-bottom: 4px solid #02bfe7;
+}
+
+.ag-header-icon {
+  color: #fff;
+  opacity: 1 !important;
+}
+
+.ag-theme-balham .ag-header-icon .ag-icon {
+  color: #fff;
+}
+
+.ag-theme-balham .ag-side-bar .ag-side-buttons {
+  background: #02bfe7;
+  width: 30px;
+}
+
+.ag-theme-balham .ag-side-bar .ag-side-buttons .ag-side-button button {
+  font-size: 1em;
+}
